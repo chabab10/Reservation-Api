@@ -194,6 +194,7 @@ POST /users
   "name": "Ibrahim",
   "email": "ibrahim@gmail.com"
 }
+
   Récupérer tous les utilisateurs
 
 GET /users
@@ -210,6 +211,7 @@ PUT /users/{id}
   "name": "Ibrahim Updated",
   "email": "ibrahim_new@gmail.com"
 }
+
    Resources
 ➕ Créer une ressource
 
@@ -220,6 +222,7 @@ POST /resources
   "description": "Salle de réunion",
   "active": true
 }
+
   Récupérer toutes les ressources
 
 GET /resources
@@ -237,6 +240,7 @@ PUT /resources/{id}
   "description": "Nouvelle salle",
   "active": true
 }
+
   Supprimer une ressource
 
 DELETE /resources/{id}
@@ -252,6 +256,7 @@ POST /reservations
   "startTime": "2026-04-05T10:00:00",
   "endTime": "2026-04-05T12:00:00"
 }
+
   Annuler une réservation
 
 DELETE /reservations/{id}
